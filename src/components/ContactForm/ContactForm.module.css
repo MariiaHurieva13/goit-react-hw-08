@@ -1,57 +1,38 @@
-.addContactForm {
-  min-width: 480px;
-  padding: 24px;
-  border: 1px solid gray;
-  border-radius: 8px;
-  font-size: 18px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 40px;
-  margin-top: 32px;
+
+
+.form {
+width: 500px;
+padding: 20px;
+border-radius: 10px;
+border: 1px solid darkblue;
+background-color: rgb(220, 220, 244);
 }
 
-.fieldWrapper {
-  position: relative;
-  display: flex;
-  width: 100%;
-  align-items: center;
-  justify-content: space-between;
+.label {
+padding-bottom: 20px;
 }
 
-.formField {
-  width: 320px;
-  padding: 12px 16px;
-  border-radius: 8px;
+.input {
+width: 100%;
+height: 50px;
+margin-bottom: 20px;
+border: 1px darkblue solid;
 }
 
-.errorField {
-  position: absolute;
-  left: 50%;
-  bottom: -1.5rem;
-  color: red;
+.error {
+    color: red;
+    font-size: 18px;
+    margin-bottom: 20px;
 }
 
-.formSubmitBtn {
-  border: none;
-  border-radius: 8px;
-  background-color: lightblue;
-  color: blue;
-  padding: 12px;
-  cursor: pointer;
-  outline: none;
-  transform: scale(1);
-  transition: transform 300ms ease-in-out;
-
-  &:enabled {
-    &:hover,
-    &:focus {
-      transform: scale(1.05);
-    }
-  }
-
-  &:disabled {
-    cursor: not-allowed;
-    border: 1px solid red;
-  }
+.btn {
+width: 50%;
+height: 50px;
+border: 1px solid darkblue;
+border-radius: 5px;
+color: aliceblue;
+background-color: darkblue;
+text-align: center;
+padding: 0;
+font-size: 20px;
 }
