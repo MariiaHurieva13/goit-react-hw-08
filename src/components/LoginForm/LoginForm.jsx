@@ -1,7 +1,7 @@
 import css from './LoginForm.module.css'
 import { useDispatch } from 'react-redux';
 import { Form, Formik, Field } from 'formik'
-import { logInThunk } from '../../redux/auth/operation';
+import { logInThunk } from '../../redux/auth/operations';
 
 
 const LoginForm = () => {
@@ -13,9 +13,10 @@ const initialValues = {
   password: '',
 }
 
-const handleSabmit = (values, options) => {
+const handleSabmit = (values, actions) => {
   dispatch(logInThunk(values))
   console.log (values)
+  actions.resetForm();
 }
 
   return (
