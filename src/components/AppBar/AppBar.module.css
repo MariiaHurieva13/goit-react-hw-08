@@ -1,0 +1,33 @@
+
+
+
+.box {
+    margin-top: 0;
+    padding: 10px 25px;
+    display: flex;
+    gap: 20px;
+    font-size: large;
+    border-bottom: 4px solid rgb(207, 216, 222);
+    padding-bottom: 20px;
+    padding-top: 20px;
+    justify-content: center;
+    align-content: baseline;
+}
+
+
+
+.link {
+    color: rgb(161, 199, 232);
+}
+
+
+.btn {
+    border-radius: 8px;
+    border-color: #646cff;
+    margin: 0;
+    padding: 5px;
+}
+
+btn:hover {
+  border-color: #7072a0;
+}
