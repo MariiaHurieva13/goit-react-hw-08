@@ -1,0 +1,11 @@
+.all {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-right: auto;
+}
+
+.nav {
+    margin: 0;
+
+}
